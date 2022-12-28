@@ -6,12 +6,16 @@ const Cases = () => {
   const navigate = useNavigate();
   return (
     <div class="bgbgbg font-sans">
-      {" "}
-      <div>
+      <div class="pt-2">
         <section class=" text-white">
-          <div class="mx-auto max-w-screen-xl px-8 py-20 sm:px-6 sm:pb-24 lg:px-8">
+          <div class="mx-auto max-w-screen-xl px-8 py-20 lg:px-8">
             <div class="mx-auto max-w-xl text-center">
-              <h2 class="text-4xl font-bold tracking-tight sm:text-5xl">HI!</h2>
+              <h2 class="text-4xl font-bold tracking-tight sm:text-5xl">
+                Привет! я Алёна🦋
+              </h2>
+              <a class="text-4xl font-bold tracking-tight sm:text-5xl">
+                маркетолог, продюсер <br />и SMM-специалист, опыт 3+ лет
+              </a>
             </div>
           </div>
         </section>

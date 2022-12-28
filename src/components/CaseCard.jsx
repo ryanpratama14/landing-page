@@ -9,7 +9,7 @@ const CaseCard = ({
   return (
     <div className="card shadow-2xl my-6 mx-12 w-full md:w-3/6 lg:w-3/6 xl:w-3/6">
       <figure>
-        <img src={cardPicProps} alt="Album" />
+        <img src={cardPicProps} alt="Screenshot" class="w-48" />
       </figure>
       <div className="card-body">
         <h2 className="card-title">{cardTitleProps}</h2>
