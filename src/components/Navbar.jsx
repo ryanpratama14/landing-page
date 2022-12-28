@@ -31,13 +31,13 @@ const Navbar = () => {
             </label>
             <ul
               tabindex="0"
-              class="menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52 drop-1"
+              class="menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52 drop-1 bg-dropdown"
             >
               <li>
                 <a
                   href
                   onClick={() => {
-                    navigate("/");
+                    navigate("/about-me");
                   }}
                 >
                   Обо мне

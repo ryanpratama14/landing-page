@@ -7,6 +7,10 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Instagram from "./components/Instagram";
 import CaseMusicalSchool from "./pages/subpages/CaseMusicalSchool";
+import CaseRestaurant from "./pages/subpages/CaseRestaurant";
+import CasePersonalBrand from "./pages/subpages/CasePersonalBrand";
+import CasePropertyAgency from "./pages/subpages/CasePropertyAgency";
+import AboutMe from "./pages/AboutMe";
 
 export default function Routing() {
   return (
@@ -15,6 +19,10 @@ export default function Routing() {
       <Routes>
         <Route exact path="/" element={<App />} />
         <Route path="/case-musical-school" element={<CaseMusicalSchool />} />
+        <Route path="/case-restaurant" element={<CaseRestaurant />} />
+        <Route path="/case-personal-brand" element={<CasePersonalBrand />} />
+        <Route path="/case-property-agency" element={<CasePropertyAgency />} />
+        <Route path="/about-me" element={<AboutMe />} />
         <Route path="*" element={<App />} />
       </Routes>
       <Footer />
