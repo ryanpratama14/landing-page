@@ -11,7 +11,7 @@ const CasePropertyAgency = () => {
               <h2 class="text-4xl font-bold  sm:text-5xl">Кейс СММ</h2>
 
               <h2 class="mb-8 text-4xl font-bold tracking-tight sm:text-5xl text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-600">
-                Частная школа музыки
+                Агентство недвижимости
               </h2>
             </div>
           </div>
@@ -22,30 +22,26 @@ const CasePropertyAgency = () => {
           <div class="lg:w-3/5">
             <h1 class="text-2xl font-bold">О проекте:</h1>
             <p class="pt-2 pb-4 ml-6">
-              Частная школа музыки
+              Агентство недвижимости "Ассистент"
               <br />
-              г. Москва <br />с 2013 года на рынке
-              <br />
-              Занятия рассчитаны на обеспечнную часть населения, цены выше
-              рыночных.
+              г. Казань <br />5 лет на рынке
             </p>
             <h1 class="text-2xl font-bold">Запрос клиента:</h1>
             <ul class="pt-2 pb-4 py-6 list-disc ml-6">
-              <li>упаковка и ведение инстаграма школы;</li>
-              <li>создание репутации в социальных сетях;</li>
+              <li>упаковка и ведение инстаграма компании;</li>
+              <li>создание репутации в инстаграм;</li>
               <li>увеличение потока клиентов;</li>
-              <li>формирование лояльной аудитории и ее прирост.</li>
+              <li>формирование лояльной аудитории.</li>
             </ul>
             <h1 class="text-2xl font-bold">Что было сделано:</h1>
             <ol class="pt-2 pb-4 py-6 list-decimal ml-6">
               <li>
                 собрана информация о проекте, обговорены цели и детали проекта;
               </li>
-              <li>проведен аудит профиля</li>
-              <li>анализ ЦА</li>
-              <li>анализ конкурентов</li>
-              <li>проведена распаковка смыслов, экспертности</li>
-              <li>разработана стратегия продвижения</li>
+              <li>проведен аудит профиля;</li>
+              <li>анализ ЦА;</li>
+              <li>анализ конкурентов;</li>
+              <li>разработана стратегия продвижения;</li>
               <li>
                 проведена полная упаковка профиля (аватарка, шапка профиля,
                 лента и актуальные истории);
@@ -53,14 +49,13 @@ const CasePropertyAgency = () => {
               <li>подбор и разработка форматов контента;</li>
               <li>создан и утвержден контент-план;</li>
               <li>создание и публикация контента;</li>
-              <li>постоянный тест и внедрение новых гипотез и стратегий;</li>
               <li>анализ и доработка проекта.</li>
             </ol>
           </div>
         </div>
         <div className="items-center flex justify-center mx-6">
           <img
-            src={require("./photos/CaseMusicalSchool2.png")}
+            src={require("./photos/CasePropertyAgency2.png")}
             class="w-fit sm:w-fit xl:w-3/5 my-6"
             alt=""
           />
@@ -95,7 +90,7 @@ const CasePropertyAgency = () => {
         </div>
         <div className="items-center flex justify-center mx-6">
           <img
-            src={require("./photos/CaseMusicalSchool3.png")}
+            src={require("./photos/CasePropertyAgency3.png")}
             class="w-96 sm:w-fit xl:w-3/5 my-6"
             alt=""
           />
@@ -107,7 +102,7 @@ const CasePropertyAgency = () => {
         </div>
         <div className="items-center flex justify-center mx-6">
           <img
-            src={require("./photos/CaseMusicalSchool4.png")}
+            src={require("./photos/CasePropertyAgency4.png")}
             class="w-96 sm:w-fit xl:w-3/5 my-6"
             alt=""
           />
@@ -119,7 +114,7 @@ const CasePropertyAgency = () => {
         </div>
         <div className="items-center flex justify-center mx-6">
           <img
-            src={require("./photos/CaseMusicalSchool5.png")}
+            src={require("./photos/CasePropertyAgency5.png")}
             class="w-96 sm:w-fit xl:w-96 my-6"
             alt=""
           />
