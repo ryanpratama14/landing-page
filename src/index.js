@@ -5,7 +5,7 @@ import App from "./App";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Instagram from "./components/Instagram";
+import Telegram from "./components/Telegram";
 import CaseMusicalSchool from "./pages/subpages/CaseMusicalSchool";
 import CaseRestaurant from "./pages/subpages/CaseRestaurant";
 import CasePersonalBrand from "./pages/subpages/CasePersonalBrand";
@@ -26,7 +26,7 @@ export default function Routing() {
         <Route path="*" element={<App />} />
       </Routes>
       <Footer />
-      <Instagram />
+      <Telegram />
     </HashRouter>
   );
 }
