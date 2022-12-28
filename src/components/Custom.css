@@ -1,0 +1,19 @@
+.bgbgbg {
+  background: rgb(32, 34, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(32, 34, 36, 1) 0%,
+    rgba(88, 44, 131, 1) 75%,
+    rgba(83, 38, 128, 1) 100%
+  );
+}
+
+.bg-navbar,
+.bg-dropdown {
+  background: #202224;
+  transition: background 200ms linear;
+}
+
+.bg-footer {
+  background: #532680;
+}
