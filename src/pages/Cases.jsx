@@ -25,7 +25,7 @@ const Cases = () => {
         </section>
       </div>
 
-      {/* <div class="flex flex-wrap justify-center text-white">
+      <div class="flex flex-wrap justify-center text-white">
         <CaseCard
           cardTitleTypeProps={"Кейс СММ"}
           cardTitleProps={"Агентство недвижимости"}
@@ -72,7 +72,7 @@ const Cases = () => {
             navigate("/case-musical-school");
           }}
         />
-      </div> */}
+      </div>
     </div>
   );
 };
