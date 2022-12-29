@@ -16,7 +16,7 @@ const CaseCard = ({
         <Flippy
           flipOnHover={false} // default false
           flipOnClick={true} // default false
-          flipDirection="vertical" // horizontal or vertical
+          flipDirection="horizontal" // horizontal or vertical
           ref={ref} // to use toggle method like ref.curret.toggle()
         >
           <FrontSide>
