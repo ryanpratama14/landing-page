@@ -4,6 +4,12 @@ import "./Custom.css";
 
 const Navbar = () => {
   const navigate = useNavigate();
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <div
       class="
@@ -16,6 +22,7 @@ const Navbar = () => {
             href
             onClick={() => {
               navigate("/");
+              scrollToTop();
             }}
             class="btn btn-ghost normal-case text-2xl "
           >

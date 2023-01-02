@@ -10,6 +10,12 @@ const CaseCard = ({
   navigate,
 }) => {
   const ref = useRef();
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <div className="card mx-6">
       <figure class="w-72 max-w-72">
@@ -37,6 +43,7 @@ const CaseCard = ({
                   <button
                     className="btn btn-accent btn-active ml-6"
                     onClick={() => {
+                      scrollToTop();
                       navigate();
                     }}
                   >
