@@ -10,6 +10,7 @@ import CaseMusicalSchool from "./pages/subpages/CaseMusicalSchool";
 import CaseRestaurant from "./pages/subpages/CaseRestaurant";
 import CasePersonalBrand from "./pages/subpages/CasePersonalBrand";
 import CasePropertyAgency from "./pages/subpages/CasePropertyAgency";
+import LoadToTop from "./components/LoadToTop";
 
 export default function Routing() {
   return (
@@ -25,6 +26,7 @@ export default function Routing() {
       </Routes>
       <Footer />
       <Telegram />
+      <LoadToTop />
     </HashRouter>
   );
 }
